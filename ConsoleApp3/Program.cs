@@ -30,7 +30,9 @@ namespace ConsoleApp3
 
                 var weekend = false;
                 var day = DateTime.Now.DayOfWeek;
-                day = day + tableNumber - 1;
+                Console.WriteLine(day);
+                day = day + tableNumber;
+                Console.WriteLine(day);
                 if (day is DayOfWeek.Saturday or DayOfWeek.Sunday)
                 {
                     weekend = true;
