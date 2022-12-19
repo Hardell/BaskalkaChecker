@@ -18,7 +18,7 @@ namespace ConsoleApp3
                 
                 Console.WriteLine("Tabulka 1/2/3/4:");
                 var table = Console.ReadLine();
-                var tableNumber = int.Parse(table);
+                var tableNumber = int.Parse(table) - 1;
                 
                 Console.WriteLine("Hodina OD (e.g. 15 alebo 9.5):");
                 var hourStart = Console.ReadLine();
